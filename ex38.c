@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
   printf("&x = %p, *(&x) = %f\n", &x, *(&x));
   printf("&a = %p, *(&a) = %p\n", &a, *(&a));
   printf("&f = %p, *(&f) = %p\n", &f, *(&f));
-  printf("a = %p, *a[0] = a[o] = %f\n", a, a[0]);
+  printf("a = %p, *a[0] = a[0] = %f\n", a, a[0]);
 
   px = &x;
   pa = &a;
