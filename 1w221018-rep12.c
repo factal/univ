@@ -44,3 +44,12 @@ int main (int argc, char **argv) {
 
   return 0;
 }
+/*
+(base) keter@keternoMacBook-Air univ % ./rep12                            
+Integration of exp(-x) for [0.000000, 1.180000] and errors
+0.692720376148053, -8.852508e-07
+0.692721261397942, -9.271472e-13
+0.692721261398869, +0.000000e+00
+0.692721261398869, +3.330669e-16
+strict value = 0.692721261398869
+*/
